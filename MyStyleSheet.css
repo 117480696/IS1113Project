@@ -1,3 +1,59 @@
 .mainheading{
     text-align: center;
 }
+
+
+html,body{
+    height:100%;
+    width:100%;
+    background: url("https://photosharingsites.files.wordpress.com/2014/11/glitter-background-design-light-url-nice-backgrounds-white-flower-flowers-textures-patterns-free-images.jpg?w=474&h=347")no-repeat center fixed;
+    background-size:cover;
+}
+
+.mainheading{
+    text-align: center;
+}
+
+ body{
+  background-color:  #E1BEE7;
+ }
+ 
+ h1{
+     color: #536DFE;
+ }
+
+
+ul{
+ width:100%;
+ position:absolute;
+ background:#536DFE;
+ height:10%;
+}
+
+ul li{
+ display:inline;
+ list-style:none;
+ position:relative;
+ top:30%;
+}
+
+ul li a{
+ text-decoration: none;
+ color:white;
+ margin:20px;
+}
+
+
+ul li a:hover{
+ background:white;
+ color:#536DFE;
+ padding:2%;
+}
+
+img{
+    border-radius:700px;
+    position: absolute;
+    top: 50%;
+    right: 40%;
+            
+}
