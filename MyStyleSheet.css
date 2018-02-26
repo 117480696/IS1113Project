@@ -6,7 +6,7 @@
 html,body{
     height:100%;
     width:100%;
-    background: url("https://photosharingsites.files.wordpress.com/2014/11/glitter-background-design-light-url-nice-backgrounds-white-flower-flowers-textures-patterns-free-images.jpg?w=474&h=347")no-repeat center fixed;
+    background: url("https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8679c5f905a034df3296c6676fb84aa5&auto=format&fit=crop&w=750&q=80")no-repeat center fixed;
     background-size:cover;
 }
 
@@ -21,6 +21,12 @@ html,body{
  h1{
      color: #536DFE;
  }
+ 
+ h2{
+  color: #536DFE;
+ }
+ 
+
 
 
 ul{
@@ -57,3 +63,26 @@ img{
     right: 40%;
             
 }
+
+button{
+    background-color: white;
+    border: double;
+    color: #536DFE;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute
+  
+
+}
+
+
+
+
+

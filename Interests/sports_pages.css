@@ -1,0 +1,35 @@
+#section1{
+   background: url("http://jockeyclubcordoba.com.ar/wp-content/uploads/2015/04/Jockey-Club-C%C3%B3rdoba-Hockey-Background-65654.jpg")no-repeat center fixed;
+    background-size:cover;
+}
+
+#section2{
+   background: url("http://www.championdigitaldesign.com/photos/sports/core_sports/lg/csb_fh_1h.jpg")no-repeat center fixed;
+    background-size:cover;
+}
+
+#section3{
+    background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/75/81/7357bdb2c50f328.jpg")no-repeat center fixed;
+    background-size:cover;
+}
+
+.section{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+button{
+    background-color: white;
+    border: double;
+    color: #536DFE;
+    padding: 4px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}

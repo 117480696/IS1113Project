@@ -1,0 +1,35 @@
+#section1{
+   background: url("https://uimeobitelji.net/wp-content/uploads/2016/05/portugalska-zastava-thinkstock-580x387.jpg")no-repeat center fixed;
+    background-size:cover;
+}
+
+#section2{
+   background: url("https://lonelyplanetimages.imgix.net/mastheads/65830387.jpg?sharp=10&vib=20&w=1200")no-repeat center fixed;
+    background-size:cover;
+}
+
+#section3{
+    background: url("https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/europe/ireland/ireland_NationalGeographic_1561052.ngsversion.1501515053876.adapt.1900.1.jpg")no-repeat center fixed;
+    background-size:cover;
+}
+
+.section{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+button{
+    background-color: white;
+    border: double;
+    color: #536DFE;
+    padding: 4px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+#section1{
+   background: url("https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0b45845f981a3622a38342b2b7ba770&auto=format&fit=crop&w=401&q=80")no-repeat center fixed;
+    background-size:cover;
+}
+
+#section2{
+   background: url("https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0b45845f981a3622a38342b2b7ba770&auto=format&fit=crop&w=401&q=80")no-repeat center fixed;
+    background-size:cover;
+}
+
+#section3{
+    background: url("https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0b45845f981a3622a38342b2b7ba770&auto=format&fit=crop&w=401&q=80")no-repeat center fixed;
+    background-size:cover;
+}
+
+.section{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+button{
+    background-color: white;
+    border: double;
+    color: #536DFE;
+    padding: 4px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
