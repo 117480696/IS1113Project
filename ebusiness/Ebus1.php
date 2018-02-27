@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Select Product</title>
@@ -55,4 +55,9 @@
             <a role="button" href="Ebus1.php">Clear Choice</a>
     
     </body>
+    
+         <footer align="center">
+        Copyright &copy; Lauren Seery
+    </footer>
+    
 </html>

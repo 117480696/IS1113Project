@@ -1,0 +1,71 @@
+.mainheading{
+    text-align: center;
+}
+
+
+html,body{
+    height:100%;
+    width:100%;
+    background: url("https://www.getfynd.com.hk/blog/2015/2/6/how-cloud-computing-works/static_5444a905e4b049e2a2ed4a77_545982dbe4b08b58f1c89bb3_54d4df45e4b0043c3bbb0bed_1423236935437_.png")no-repeat center fixed;
+    background-size:cover;
+}
+
+.mainheading{
+    text-align: center;
+}
+
+ body{
+  background-color:  #E1BEE7;
+ }
+ 
+ h1{
+     color: #0040FF;
+     font-family: monospace
+ }
+ 
+ h2{
+  color: #0040FF;
+  font-family: monospace
+ }
+ 
+ h3{
+  color: #0040FF;
+  font-family: monospace
+ }
+
+
+ul{
+ width:100%;
+ position:absolute;
+ background:#0040FF;
+ height:10%;
+}
+
+ul li{
+ display:inline;
+ list-style:none;
+ position:relative;
+ top:30%;
+}
+
+ul li a{
+ text-decoration: none;
+ color:white;
+ margin:80px;
+ font-family: monospace
+}
+
+
+ul li a:hover{
+ background:white;
+ color:#0040FF;
+ padding:2%;
+}
+
+
+
+
+
+
+
+
