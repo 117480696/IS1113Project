@@ -25,7 +25,8 @@ html,body{
  
  h2{
   color: #0040FF;
-  font-family: monospace
+  font-family: monospace;
+  text-decoration: underline
  }
  
  h3{
@@ -63,6 +64,12 @@ ul li a:hover{
 }
 
 
+img{
+
+    position: absolute;
+     top: 70%;
+    right: 32%;
+}
 
 
 

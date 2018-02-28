@@ -18,11 +18,11 @@
         <div>
              
          <ul>
+           <li> <a href = "../Cirrus.html">Cirrus Home</a></li>
+                      
            <li> <a  href = "../Homepage.html">Home</a> </li>
            
            <li> <a href = "../AboutCloud.html">About Cloud</a></li>
-                 
-           <li> <a href = "../Cirrus.html">Cirrus Home</a></li>
            
           </ul>
          
