@@ -1,85 +1,298 @@
 html,body{
- width:100%;
- height:100%;
- background: url("https://images.unsplash.com/photo-1490131784822-b4626a8ec96a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cd8c16458435813a798bc9de0435ad3d&auto=format&fit=crop&w=1500&q=80")no-repeat center fixed;
- background-size:cover;
+    height:100%;
+    width:100%;
+    background: url("https://www.getfynd.com.hk/blog/2015/2/6/how-cloud-computing-works/static_5444a905e4b049e2a2ed4a77_545982dbe4b08b58f1c89bb3_54d4df45e4b0043c3bbb0bed_1423236935437_.png")no-repeat center fixed;
+    background-size:cover;
 }
 
-h1 {
-    color:black;
-    padding-top:10%;
-    padding-left:10%;
-    margin-left:23%;
-    }
-p
-    {
-    padding-left:20%;
-    margin-left:20%;
-    }
-
- a
- {
-     margin-left:35%;
+h1{
+     color: #0040FF;
+     font-family: monospace;
  }
  
- button {
-     margin-left:35%;
+ h2{
+  color: #0040FF;
+  font-family: monospace;
  }
-form {
-    margin-left:35%;
+
+ul li a{
+    text-decoration:none;
+    color: white;
+    font-family: monospace;
 }
-img {
-    margin-left:40%;
-    padding-top:15%
-    
-}
+
 ul{
- width:100%;
- position:absolute;
- background:grey;
- height:10%;
+    height:40%;
+    width:100%;
+    background:#0040FF;
+    line-height:3.5;
+    text-decoration:none;
+    font-family: monospace
 }
 
 ul li{
- display:inline;
- list-style:none;
- position:relative;
- top:30%;
+    list-style:none;
+    display:inline;
+    position:relative;
+    margin-left:60px;
+    margin-right:120px;
+    transform:translate(40%,30%);
+    font-size:16px;
+    text-decoration:none;
+    font-family: monospace;
 }
-
-ul li a{
- text-decoration: none;
- color:white;
- margin:300px;
- font-size:160%;
-}
-
 
 ul li a:hover{
- background:white;
- color:#b7d7e8;
- padding:2%;
+    color:#0040FF;
+    background: white;
+    padding:2%;
+    cursor:pointer;
+    text-decoration:none;
+    font-family:monospace;
 }
 
-.paymentdetails
-{
-    margin:20%;
+footer{
+    position:absolute;
+    top:90%;
+    width:100%;
+    height:10%;
+    background: #0040FF; 
+    color:white;
+    line-height:2px;
+    opacity:.999;
+    font-size:30px;
 }
 
-label {
-    margin-left:20%
-    margin-top:20%;
+img{
+    border-radius:700px;
+    position: absolute;
+    top: 35%;
+    right: 40%;
+            
+}
+
+.copyright{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.img2{
+    top:.75%;
+    left:.5%;
+    height:8.5%;
+    width:4.5%;
 }
 
 
 
-footer {
-    position:fixed;
-    padding-left:2%;
-    left: 0;
-    bottom: 0;
-    text-align:center;
-    color:#900C3F;
-    padding-top:30px;
-    margin-top:50px;
-      }
+/* E-business page 1 styling */
+.container3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    
+}
+
+.container2 .lblsalesforce{
+    position: absolute;
+    top: 20%;
+    left: 43%;
+}
+
+.container2 .lblcloud9{
+    position: absolute;
+    top: 25%;
+    left: 43%;
+}
+
+.container2 .lblaws{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+
+.container2 .lblgmail{
+    position: absolute;
+    top: 35%;
+    left: 43%;
+}
+
+.container2 .lblsubtotal{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
+.container2 .lbldiscount{
+    position: absolute;
+    top: 55%;
+    left: 43%;
+}
+.container2 .lblvat{
+    position: absolute;
+    top: 60%;
+    left: 43%;
+}
+
+.container2 .lbltotal{
+    position: absolute;
+    top: 65%;
+    left: 43%;
+}
+
+.btnadd{
+    position: absolute;
+    top: 81%;
+    left: 45%;
+}
+
+.addbtnstyle{
+    background-color: white;
+    border: solid;
+    color: #536DFE;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 18px;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    font-family: monospace
+}
+
+.addbtnstyle:hover{
+    cursor: pointer;
+}
+
+.btncal{
+    position: absolute;
+    top: 75%;
+    left: 43%;
+    background-color: white;
+    border: solid;
+    color: #536DFE;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 18px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: monospace
+}
+.btncal:hover{
+    cursor:pointer;
+}
+
+.btnclear:hover{
+    cursor: pointer;
+}
+
+.btnclear{
+    position: absolute;
+    top: 75%;
+    left: 52%;
+    background-color: white;
+    border: solid;
+    color: #536DFE;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 18px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: monospace
+}
+
+
+
+/* E-business page 2 styling */
+.heading2{
+    position: absolute;
+    top: 10%;
+    left: 42%;
+}
+
+.lblname{
+    position: absolute;
+    top: 20%;
+    left: 43%;
+}
+
+.lblemail{
+    position: absolute;
+    top: 25%;
+    left: 43%;
+}
+
+.lblpin{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+
+.btnproceed{
+    position: absolute;
+    top: 35%;
+    left: 43%;
+    background-color: white;
+    border: solid;
+    color: #536DFE;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 18px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: monospace
+}
+
+.btnproceed:hover{
+    cursor: pointer;
+}
+
+.btnvalidate{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    background-color: white;
+    border: solid;
+    color: #536DFE;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 18px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: monospace
+}
+
+.btnvalidate{
+    cursor: pointer;
+}
+
+/* E-business page 3 styling */
+        
+.ebus3_heading{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.ebus3_name{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.ebus3_email{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.ebus3_total{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}

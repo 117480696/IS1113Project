@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>RECEIPT</title>
+        <title>Receipt</title>
+        
+        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
     </head>
+    
     <body>
-        <h4>RECEIPT</h4>
-                
-        <?php
-        // Echo session variables that were set on previous page
-        echo "Total is " . $_SESSION["total"] . ".";
+        
+         <div class="topnav">
+    
+   
+        <h1 align="center">Cirrus Services</h1>
+ 
+        <h2 align="center">Receipt</h2>
+        
+        <div>
+             
+         <ul>
+           <li> <a  href = "../Homepage.html">Home</a> </li>
+           
+           <li> <a href = "../AboutCloud.html">About Cloud</a></li>
+                 
+           <li> <a href = "../Cirrus.html">Cirrus Home</a></li>
+           
+          </ul>
+         
+        </div>
+        <?php  
+        // Set session variables
+          $_SESSION["username"] = $_POST["username"];
+          $_SESSION["useremail"] = $_POST["useremail"];
         ?>
+        
+        <p class="ebus3_name">
+            <?php
+            // Echo session variables that were set on the previous pages
+            echo "Name: " . $_SESSION["username"] . ".";
+            ?>
+        </p>
+        
+        <p class="ebus3_email">
+            <?php
+            // Echo session variables that were set on the previous pages
+            echo "Email: " . $_SESSION["useremail"] . ".";
+            ?>
+        </p>
+        
+        <p class="ebus3_total">
+            <?php
+            // Echo session variables that were set on the previous pages
+            echo "Total: " . $_SESSION["total"] . ".";
+            ?>
+        </p>
     </body>
 </html>
