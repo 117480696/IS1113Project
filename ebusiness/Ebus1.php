@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Select Product</title>
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
 
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
-    </head>
-    
-    <body>
-                <div class="topnav">
-    
-   
-        <h1 align="center">Cirrus Services</h1>
- 
-        <h2 align="center">Select a Cloud Service</h2>
         
-        <div>
+        
+    </head>
+     <body>
+         <div class="topnav">
+    
+    
+             <h1 align="center">Cirrus Services</h1>
+             <h2 align="center">Select a Product</h2>
+ 
+         
+         <div>
              
          <ul>
            
-            <li> <a href = "../Cirrus.html">Cirrus Home</a></li>
-                      
-           <li> <a  href = "../Homepage.html">Home</a> </li>
+        <li> <a href = "../Cirrus.html">Cirrus Home</a></li>  
+        
+        <li> <a href = "../AboutCloud.html">About Cloud</a></li>
            
-           <li> <a href = "../AboutCloud.html">About Cloud</a></li>
-                 
-          </ul>
-         
+        <li> <a  href = "../Homepage.html">Home</a> </li>
+           
+           
+        </ul>
+        
         </div>
-          
-        <div class="container2">
+        
+        <div class="container1" align="center">
               
+          <br>
               
           <form method="POST" action="Ebus2.php">
             
            
             <label for="salesforce" class="lblsalesforce">
               <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-              SalesForce @ $200
+              SalesForce @ $150
             </label>
                 
             <br>
             
             <label for="cloud9" class="lblcloud9">
               <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
-               Cloud9 @ $250
+               Cloud9 @ $200
             </label>
                 
             <br>
@@ -60,10 +64,10 @@
                 
             <label for="gmail" class="lblgmail">
               <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
-              Gmail @ $400
+              Gmail @ $420
             </label>
             
-            
+            <br>
             
             <label for="subtotal" class="lblsubtotal">
               Subtotal: 
@@ -97,17 +101,17 @@
             <br>
             
             <div class="btnadd">   
-              <button class="addbtnstyle" type="submit" id="btnProceed" disabled>Add to Basket</button>
+              <button class="addbtnstyle" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             </div>  
               
           </form>
-             
-          <button class="btncal" onClick="calcSub()">Calculate Total</button>
+            <br> 
+          <button class="btncal" onClick="calcSub()">Calculate Cost</button>
              
           <br>
-            
+          <br> 
           
-          <a class="btnclear" role="button" href="Ebus1.php">Clear</a>
+          <a class="btnclear" role="button" href="Ebus1.php">Clear Choice</a>
         </div>
     </body>
 </html>
