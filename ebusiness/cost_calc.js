@@ -5,16 +5,16 @@ function calcSub(){
     var argSubTotal;
     
     if(document.getElementById('salesforce').checked) {
-      argSubTotal = 100;
+      argSubTotal = 150;
     }
     else if (document.getElementById('cloud9').checked){
       argSubTotal = 200;
     }
     else if (document.getElementById('aws').checked){
-      argSubTotal = 300;
+      argSubTotal = 330;
     }
     else{
-      argSubTotal = 400;
+      argSubTotal = 420;
     }
     
     calcDisVatTotal(argSubTotal);

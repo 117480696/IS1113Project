@@ -17,7 +17,7 @@
     
     
              <h1 align="center">Cirrus Services</h1>
-             <h2 align"center">Enter Details</h2>
+             <h2 align="center">Enter Details</h2>
  
          <ul>
            
