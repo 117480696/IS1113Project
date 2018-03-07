@@ -18,9 +18,6 @@
     
              <h1 align="center">Cirrus Services</h1>
  
-         
-         <div>
-             
          <ul>
            
         <li> <a href = "../Cirrus.html">Cirrus Home</a></li>  
@@ -51,8 +48,8 @@
                 <input type="email" id="useremail" name="useremail" placeholder="example@gmail.com">
             </label>
             
-            </br>
-            </br>
+            <br>
+            <br>
             
             <label for="userpin" class="lblpin">
                 PIN
@@ -60,13 +57,13 @@
             
             </label>
             
-            </br>
-            </br>
+            <br>
+            <br>
             
             <button class="btnproceed" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
         </form>
         
-        </br>
+        <br>
         
         <button class="btnvalidate" onClick="validateName()">Validate</button>
  
@@ -78,4 +75,5 @@
         ?>
         
     </body>
+    
 </html>

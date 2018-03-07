@@ -10,10 +10,6 @@ html,body{
     background-size:cover;
 }
 
-.mainheading{
-    text-align: center;
-}
-
  body{
   background-color:  #E1BEE7;
  }
@@ -68,15 +64,6 @@ ul li a:hover{
  left:38%;
  position:absolute;
     
-}
-
-.logo{
-position:absolute;
- left:39%;
- top:20%;
- overflow: auto;
- height:200px;
- width:200px;
 }
 
 .container1 .h1{

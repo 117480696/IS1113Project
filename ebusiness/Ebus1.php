@@ -17,9 +17,6 @@
     
              <h1 align="center">Cirrus Services</h1>
              <h2 align="center">Select a Product</h2>
- 
-         
-         <div>
              
          <ul>
            
@@ -114,4 +111,5 @@
           <a class="btnclear" role="button" href="Ebus1.php">Clear Choice</a>
         </div>
     </body>
+    
 </html>
