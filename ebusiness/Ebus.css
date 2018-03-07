@@ -73,7 +73,7 @@ ul li a:hover{
 }
 
 .addbtnstyle {
- background-color: green;
+ background-color:#0040FF ;
  border: none;
  color: white;
  text-align: center;
@@ -81,6 +81,7 @@ ul li a:hover{
  padding: 5px 5px;
  border-radius: 3px;
  font-size:90%;
+ font-family: monospace
 }
 
 .addbtnstyle:hover {
@@ -89,7 +90,7 @@ ul li a:hover{
 }
 
 .btncal {
-background-color:blue;
+background-color:#0040FF;
  border: none;
  color: #000;
  text-align: center;
@@ -97,6 +98,7 @@ background-color:blue;
  padding: 6px 6px;
  border-radius: 3px;
  font-size:95%;
+ font-family: monospace
  
 
 
@@ -111,12 +113,13 @@ background-color:blue;
 }
 
 .btnclear {
- background-color: red;
+ background-color: #0040FF;
     text-decoration: none;
     color: white;
     padding: 4px 4px;
     border: solid 1px red;
     border-radius: 3px;
+    font-family: monospace
 
 }
 
@@ -149,8 +152,8 @@ background-color:blue;
     position: absolute;
     top: 58%;
     left: 40%;
-    
-    background-color: #4CAF50;
+    font-family: monospace;
+    background-color: #0040FF;
     border: none;
     color: white;
     text-align: center;
@@ -168,7 +171,7 @@ background-color:blue;
     position: absolute;
     top: 64%;
     left: 43%;
-    background-color: #008CBA;
+    background-color: #0040FF;
     border: none;
     color: white;
     text-align: center;
@@ -176,6 +179,7 @@ background-color:blue;
     padding: 5px 5px;
     border-radius: 3px;
     font-size: 90%;
+    font-family: monospace
 }
 
 .btnvalidate{
