@@ -17,6 +17,7 @@
     
     
              <h1 align="center">Cirrus Services</h1>
+             <h2 align"center">Enter Details</h2>
  
          <ul>
            
@@ -66,7 +67,6 @@
         <br>
         
         <button class="btnvalidate" onClick="validateName()">Validate</button>
- 
     
         <?php  
         // Set session variables
