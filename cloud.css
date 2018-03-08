@@ -63,8 +63,11 @@ ul li a:hover{
  padding:2%;
 }
 
-
-
+img1{
+    position: absolute;
+    top: 50%;
+    right: 40%;
+}
 
 
 
